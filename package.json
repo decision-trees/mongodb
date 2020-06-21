@@ -1,0 +1,32 @@
+{
+  "name": "@decision-trees/mongodb",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "NODE_ENV=development nodemon",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "author": "Christian Dein",
+  "license": "LGPL-2.1-or-later",
+  "dependencies": {
+    "@decision-trees/core": "0.0.1",
+    "mongoose": "^5.9.19"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@types/mongoose": "^5.7.27",
+    "@types/node": "^14.0.13",
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.0",
+    "ts-node": "^8.10.1",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^9.0.0",
+    "typescript": "^3.9.5"
+  }
+}
